@@ -1,0 +1,10 @@
+{
+    "clangd.arguments": [
+        "--background-index",
+        "--compile-commands-dir=.vscode",
+        "-j=13",
+        "--clang-tidy",
+        "--header-insertion=iwyu",
+        "--pch-storage=memory",
+    ]
+}

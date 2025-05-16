@@ -1,0 +1,8 @@
+.vscode/*
+!.vscode/settings.json
+
+.xmake/
+build/
+target/
+
+**.pdb
